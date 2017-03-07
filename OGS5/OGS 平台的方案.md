@@ -15,8 +15,8 @@ Linux X86，如果时间宽裕，打算提供Windows版本。
 **对话通讯模式**：是有客户端主动发起通讯请求。该请求被OGS接受并处理并调用券商接口，并向客户端返回相应响应。例如送单。这种通讯类似于客户端与服务端进行的一问一答。如下图所示：  
 ![对话通讯模式](http://i.imgur.com/15QubaI.png)  
 **推送模式**：是指OGS主动向客户端推送消息。如订单状态更新推送。如下图所示：  
-![](http://i.imgur.com/gwBhjzT.png)   
-
+![推送模式](http://i.imgur.com/gwBhjzT.png)   
 ## 5.OGS系统结构图 ##
 如下图所示：  
 ![](http://i.imgur.com/E0KlYch.png)  
+## API 设计 ##
