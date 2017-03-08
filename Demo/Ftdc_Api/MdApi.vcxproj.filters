@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{30f507f5-6787-4335-8d9e-c4d3114c4b48}</UniqueIdentifier>
+      <Extensions>h;hpp</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{bffd04fd-874f-4c7a-a7d1-5ef89c71b86a}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{c109cd50-e60b-4d72-84f4-eeb4e719093f}</UniqueIdentifier>
+      <Extensions>rc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="MdApiImpl.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClientImpl.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketHandle.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MdApi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MdApiImpl.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketHandle.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MdApi.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
